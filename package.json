@@ -1,0 +1,29 @@
+{
+  "name": "@zvsx001/kafka-helpers",
+  "version": "0.0.1",
+  "main": "./index",
+  "scripts": {
+    "prepack": "npx tsc --noEmit false",
+    "postpublish": "npm run clean",
+    "clean": "npx module-kit-clean"
+  },
+  "keywords": [
+    "axios",
+    "crypto",
+    "encrypt"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zvs001/kafka-helpers"
+  },
+  "devDependencies": {
+    "kafkajs": "^2.2.3",
+    "module-kit": "^0.1.0",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "kafkajs": ">=2.0.0 <3.0.0"
+  }
+}
