@@ -1,5 +1,5 @@
 {
-  "name": "@zvsx001/kafka-helpers",
+  "name": "@zvs001/kafka-helpers",
   "version": "0.0.1",
   "main": "./index",
   "scripts": {
@@ -21,8 +21,7 @@
     "module-kit": "^0.1.0",
     "typescript": "^4.8.2"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "kafkajs": ">=2.0.0 <3.0.0"
   }

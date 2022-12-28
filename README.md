@@ -1,15 +1,15 @@
 
 Provides manual commit implementation for kafkajs.
 
-[![npm](https://img.shields.io/npm/v/@zvsx001/kafka-helpers)](https://www.npmjs.com/package/@zvsx001/kafka-helpers)
+[![npm](https://img.shields.io/npm/v/@zvs001/kafka-helpers)](https://www.npmjs.com/package/@zvs001/kafka-helpers)
 
 ## Install
 
-``yarn add @zvsx001/kafka-helpers``
+``yarn add @zvs001/kafka-helpers``
 
 or 
 
-```npm i -S @zvsx001/kafka-helpers```
+```npm i -S @zvs001/kafka-helpers```
 
 
 ## Usage
@@ -17,7 +17,7 @@ or
 Code example:
 
 ```tsx
-import { setupConsumer } from '@zvsx001/kafka-helpers'
+import { setupConsumer } from '@zvs001/kafka-helpers'
 
 const consumer = kafka.consumer({
   groupId: `group`,
